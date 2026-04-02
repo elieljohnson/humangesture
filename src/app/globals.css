@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply min-h-full bg-bg-primary font-sans text-text-primary antialiased;
+  }
+}
