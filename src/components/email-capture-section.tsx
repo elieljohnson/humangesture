@@ -1,4 +1,6 @@
-import { JoinForm } from "@/components/join-form";
+const JOIN_LIST_MAILTO =
+  "mailto:hello@humangesture.com?subject=" +
+  encodeURIComponent("Add me to the list");
 
 export function EmailCaptureSection() {
   return (
@@ -19,7 +21,12 @@ export function EmailCaptureSection() {
           what he&apos;s reading, building, and thinking about. First call coming
           soon.
         </p>
-        <JoinForm />
+        <a
+          href={JOIN_LIST_MAILTO}
+          className="mt-5 inline-block text-base font-medium text-accent-dark underline decoration-accent-dark/40 underline-offset-4 transition-colors hover:text-accent-mid hover:decoration-accent-mid md:mt-6 md:text-lg"
+        >
+          hello@humangesture.com
+        </a>
       </div>
     </section>
   );
