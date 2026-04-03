@@ -21,7 +21,7 @@ export function Nav({ brand, children }: NavProps) {
           ) : null}
           <a
             href="#connect"
-            className="inline-flex shrink-0 items-center justify-center whitespace-nowrap rounded-sm bg-accent-dark px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-accent-mid focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-dark"
+            className="hidden shrink-0 items-center justify-center whitespace-nowrap rounded-sm bg-accent-dark px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-accent-mid focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-dark md:inline-flex"
           >
             Join the list
           </a>
