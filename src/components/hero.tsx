@@ -16,7 +16,7 @@ export function Hero() {
           <div className="w-full opacity-90">
             <p className="m-0 text-pretty font-normal text-[24px] leading-[32px] text-text-primary">
               As AI generates more of what we interact with, the intentional
-              human act — the one with a point of view behind it — becomes the
+              human act, the one with a point of view behind it, becomes the
               scarce and valuable thing.
             </p>
           </div>
